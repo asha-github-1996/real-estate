@@ -9,7 +9,7 @@ const signup = async (req, res, next) => {
   const newUser = new User({ username, email, password: hashedPassword });
 
   try {
-    //saving to database
+    //Saving to database
     await newUser.save();
     res.status(201).json({
       message: "user created successfully",
