@@ -2,7 +2,7 @@
 
 > Real Estate Marketplace website built with the MERN stack with React, Redux for state management, Tailwind CSS for style
 
-- features:
+- Features:
   - Node provides the backend environment for this application
   - Express middleware is used to handle requests, routes
   - Mongoose schemas to model the application data
