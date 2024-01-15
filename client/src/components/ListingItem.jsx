@@ -30,9 +30,10 @@ const ListingItem = ({ listing }) => {
           </p>
           <p className="text-slate-500 mt-2 font-semibold">
             $
-            {listing.offer
+            {/* {listing.offer
               ? listing.discountPrice.toLocaleString("en-US")
-              : listing.regularPrice.toLocaleString("en-US")}
+              : listing.regularPrice.toLocaleString("en-US")} */}
+            {listing.regularPrice.toLocaleString("en-US")}
             {listing.type === "rent" && " / month"}
           </p>
           <div className="txt-slate-700 flex gap-4">
