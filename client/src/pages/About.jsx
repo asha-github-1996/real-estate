@@ -10,8 +10,13 @@ const About = () => {
         <span className="text-slate-700">ForYou</span>
       </h1>
       <p className="mb-4 text-slate-700">
+<<<<<<< HEAD
         Home For You is a leading real estate agency that specializes in
         helping clients buy, sell, and rent properties in the most desirable
+=======
+        Home For You is a leading real estate agency that specializes in helping
+        clients buy, sell, and rent properties in the most desirable
+>>>>>>> c4a3b64 (Modified app name to Home for you)
         neighborhoods. Our team of experienced agents is dedicated to providing
         exceptional service and making the buying and selling process as smooth
         as possible.
