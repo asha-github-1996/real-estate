@@ -13,13 +13,13 @@
 
 ## Installation process
 
-1. #### clone the repo using this command
+1. #### Clone the repo using this command
 
    ```bash
    git clone https://github.com/ashraf-kabir/mern-ecommerce.git
    ```
 
-2. #### install npm packages
+2. #### Install npm packages
 
    1. install backend packages
 
@@ -28,14 +28,15 @@
    npm install
    ```
 
-   2. install frontend packages
+   2. Install frontend packages
 
    ```bash
+   cd real-estate
    cd client
    npm install
    ```
 
-3. go to the parent folder of real-estate & create .env for connection, JWT_SECRET, MONGODB.
+3. Go to the parent folder of real-estate & create .env for connection, JWT_SECRET, MONGODB.
 
    ```bash
    cd real-estate
@@ -51,7 +52,7 @@
    JWT_SECRET=YOUR_JWT_SECRET
    ```
 
-4. create another .env file inside client directory for VITE_FIREBASE_API_KEY.
+4. Create another .env file inside client directory for VITE_FIREBASE_API_KEY.
 
    ```bash
    cd real-estate/client
